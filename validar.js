@@ -4,7 +4,6 @@ const validar = (req, res) => {
     } else {
         res.status(401).send('No autorizado')
     }
-    res.send('Sesion validada!')
 }
 
 module.exports = validar;
